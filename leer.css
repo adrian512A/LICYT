@@ -1,0 +1,86 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: #e6a99a;
+}
+.titulo
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: #000;
+}
+.titulo h1
+{
+   margin: 0;
+   padding: 0;
+   font-size: 120px;
+   color: #fff;
+}
+.titulo:first-child
+{
+	background: url(../img/A.jpg);
+	background-size: cover;
+	box-shadow: 0px 15px 25px rgba(117, 31, 31, 0.247);
+}
+.titulo:last-child
+{
+	background: url(../img/4.jpg);
+	background-size: cover;
+	box-shadow: 0px 15px 25px 25px rgb(0, 0, 0, 0.90);
+}
+section
+{
+	height: auto;
+	display: flex;
+}
+section  .imgBx
+{
+	position: sticky;
+	top: 0;
+	min-width: 50%;
+	background: #000;
+	height: 100vh;
+	border-radius: 15PX;
+}
+section  .imgBx img
+{
+	border-radius: 155PX;
+}
+section  .texto
+{
+	padding: 60px;
+
+}
+section  .texto h2
+{
+	margin: 0 0 20px;
+	padding: 0;
+	font-size: 60px;
+	color: #575656;
+}
+section  .texto h3
+{
+	font-size: 150PX;
+	width: 15px;
+}
+section  .texto p
+{
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	text-align: justify;
+}
+section  .imgBx img
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	box-shadow: 0px 15px 25px rgba(207, 40, 40, 0.952);
+}
